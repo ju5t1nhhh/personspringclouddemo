@@ -1,6 +1,7 @@
 package com.justin.person.dao;
 
 import com.justin.person.domain.Person;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -13,7 +14,7 @@ public interface PersonDao {
     int insert(Person person);
     int deleteByPrimaryKey(Long id);
     int updateByPrimaryKey(Person person);
-    int ifExists(Long id);
+    int ifExists(@Param("name") String name,@Param("pwd") String pwd);
     List<Person> loginSelectList();
     List<Person> visitorSelectList();
 }

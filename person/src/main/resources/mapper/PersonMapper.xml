@@ -26,8 +26,8 @@
         <include refid="Base_Column_List" />
         from `person`
     </select>
-    <select id="ifExists" resultType="int" parameterType="java.lang.Long">
-        select count(*) from `person` where `id`=#{id}
+    <select id="ifExists" resultType="int" parameterType="map">
+        select count(*) from `person` where `name`=#{name} and `pwd`=#{pwd}
     </select>
     <insert id="insert" parameterType="com.justin.person.domain.Person">
         insert into `person`
