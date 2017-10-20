@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eurekaserver" />
+        <module name="person" />
         <module name="personspringclouddemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eurekaserver" target="1.8" />
+      <module name="person" target="1.8" />
       <module name="personspringclouddemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
