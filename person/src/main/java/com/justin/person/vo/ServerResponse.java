@@ -1,14 +1,10 @@
 package com.justin.person.vo;
 
-
-import lombok.Data;
-
 import java.io.Serializable;
 
 /**
  * Created by Justin on 2017/10/20.
  */
-@Data
 public class ServerResponse<T> implements Serializable{
     private int status;
     private String msg;
@@ -29,5 +25,29 @@ public class ServerResponse<T> implements Serializable{
     }
     public static <T> ServerResponse<T> createErrorResponse(int status,String msg){
         return new ServerResponse<T>(status,msg);
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public T getData() {
+        return data;
+    }
+
+    public void setData(T data) {
+        this.data = data;
     }
 }
