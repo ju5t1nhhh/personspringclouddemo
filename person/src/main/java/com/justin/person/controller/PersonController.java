@@ -3,6 +3,7 @@ package com.justin.person.controller;
 import com.justin.person.domain.Person;
 import com.justin.person.service.PersonService;
 import com.justin.person.vo.ServerResponse;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

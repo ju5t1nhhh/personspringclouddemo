@@ -7,7 +7,6 @@ import org.springframework.cloud.client.SpringCloudApplication;
 @SpringCloudApplication
 @MapperScan("com.justin.person.dao")
 public class PersonApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(PersonApplication.class, args);
 	}
