@@ -25,7 +25,7 @@ public class PersonController {
     private boolean checkLogin(HttpSession session){
         String name= (String) session.getAttribute("name");
         String pwd= (String) session.getAttribute("pwd");
-        return personService.login(name,pwd).getStatus()==200?true:false;
+        return personService.login(name,pwd).getStatus()==200;
     }
 
     /**
