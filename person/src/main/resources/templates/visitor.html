@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>demo</title>
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<style type="text/css">
+		th{
+			width: 160px;
+		}
+		td{
+			font-size: 15px;
+			width: 160px;
+			height: 61px;
+		}
+		img{
+			height: 50px;
+			width: 50px;
+		}
+		thead{
+			display: table;
+			width: 100%;
+			table-layout: fixed;
+		}
+		tbody{
+			width: calc(100%+1em);
+			height: 500px;
+			display: block;
+			overflow-y: scroll;
+		}
+		tr{
+			table-layout: fixed;
+			display: table;
+		}
+		label{
+			width: 70px;
+			text-align: right;
+		}
+		label+input{
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<br><br>
+		<br><br>
+		<div>
+			<div style="display: inline-block;float: right;margin: 80px 60px 10px 0;">
+				<button type="button" class="btn btn-default" style="display: inline-block;"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
+				<div style="line-height: 50px;text-align: center;display: inline-block;"><button type="button" class="btn btn-info">Login</button></div>
+			</div>
+		</div>
+		<table class="table table-hover table-condensed">
+			<thead>
+				<tr>
+					<th>Avatar</th>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Sex</th>
+					<th>Mobile</th>
+					<th>Email</th>
+					<th><span id="thStatus" data-toggle="tooltip" data-placement="top" title="0-Free 1-Duty 2-Mult">Status</span></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="https://springcloud.cc/images/spring-cloud-config.png" alt="My Avatar" class="img-rounded"></td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+				</tr>
+				<tr>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+				</tr>
+				<tr>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+					<td>1001</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+	$('#thStatus').tooltip();
+</script>
+</html>
