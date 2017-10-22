@@ -15,6 +15,7 @@ public interface PersonDao {
     int deleteByPrimaryKey(Long id);
     int updateByPrimaryKey(Person person);
     int ifExists(@Param("name") String name,@Param("pwd") String pwd);
+    Person selectOne(Long id);
     List<Person> loginSelectList();
     List<Person> visitorSelectList();
 }

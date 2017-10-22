@@ -21,6 +21,22 @@ public class Person implements Serializable{
     private Date createTime;
     private Date updateTime;
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", pwd='" + pwd + '\'' +
+                ", sex=" + sex +
+                ", mobile='" + mobile + '\'' +
+                ", email='" + email + '\'' +
+                ", avatar='" + avatar + '\'' +
+                ", status=" + status +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                '}';
+    }
+
     public Long getId() {
         return id;
     }

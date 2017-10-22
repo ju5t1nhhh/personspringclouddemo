@@ -39,7 +39,7 @@ public class PersonDaoTest {
     @Test
     public void updateByPrimaryKey() throws Exception {
         Person person=new Person();
-        person.setId(1000L);
+        person.setId(1008L);
         person.setName("Hahaha");
         person.setPwd("abc");
         personDao.updateByPrimaryKey(person);

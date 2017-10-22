@@ -20,4 +20,5 @@ public interface PersonService {
 
     ServerResponse deletePerson(Long id);
 
+    ServerResponse selectOne(Long id);
 }

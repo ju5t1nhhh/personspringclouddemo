@@ -3,5 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/eurekaserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/person" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/upload" charset="UTF-8" />
+    <file url="file://F:/forkProjects/SpringCloudTutorial/springms-gateway-zuul-file-upload" charset="UTF-8" />
   </component>
 </project>

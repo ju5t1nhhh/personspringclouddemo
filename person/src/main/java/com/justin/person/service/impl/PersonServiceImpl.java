@@ -59,7 +59,7 @@ public class PersonServiceImpl implements PersonService {
     @HystrixCommand(fallbackMethod = "fallbackPerson")
     @Override
     public ServerResponse addPerson(Person person) {
-        return personDao.insert(person)>0?ServerResponse.createSuccessResponse("add success"):ServerResponse.createErrorResponse(500,"add failed");
+        return personDao.insert(person)>0?ServerResponse.createSuccessResponse("add success"):ServerResponse.createErrorResponse(500,"add failed, check `name`");
     }
 
     @HystrixCommand(fallbackMethod = "fallbackPerson")
@@ -72,5 +72,11 @@ public class PersonServiceImpl implements PersonService {
     @Override
     public ServerResponse deletePerson(Long id) {
         return personDao.deleteByPrimaryKey(id)>0?ServerResponse.createSuccessResponse("delete success"):ServerResponse.createErrorResponse(500,"delete failed");
+    }
+
+    @HystrixCommand(fallbackMethod = "fallbackId")
+    @Override
+    public ServerResponse selectOne(Long id) {
+        return ServerResponse.createSuccessResponse(personDao.selectOne(id));
     }
 }

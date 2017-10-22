@@ -14,11 +14,11 @@
         <result column="update_time" property="updateTime"/>
     </resultMap>
     <sql id="Base_Column_List" >
-        `id`,`name`,`sex`,`mobile`,`email`,`avatar`,`status`,`create_time`,`update_time`
+        `id`,`name`,`sex`,`mobile`,`email`,`avatar`,`status`
     </sql>
     <select id="loginSelectList" resultMap="BaseResultMap">
         select
-        <include refid="Base_Column_List" />,`pwd`
+        <include refid="Base_Column_List" />,`pwd`,`create_time`,`update_time`
         from `person`
     </select>
     <select id="visitorSelectList" resultMap="BaseResultMap">
@@ -43,4 +43,9 @@
         `email`=#{email},`avatar`=#{avatar},`status`=#{status},`update_time`=now()
         where `id`=#{id}
     </update>
+    <select id="selectOne" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />,`pwd`,`create_time`,`update_time`
+        from `person` where `id`=#{id}
+    </select>
 </mapper>
