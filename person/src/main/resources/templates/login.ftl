@@ -160,7 +160,7 @@
 		var hour=time.getHours();
 		var minute=time.getMinutes();
 		var second=time.getSeconds();
-		return year+'-'+add0(month)+'-'+add0(date)+'  '+add0(hour)+':'+add0(minute)+':'+add0(second);
+		return year+'-'+add0(month)+'-'+add0(date)+'\n'+add0(hour)+':'+add0(minute)+':'+add0(second);
     };
     var nullToBlank=function (item) {
         return item==null?"":item;
@@ -258,7 +258,6 @@
 				if(res.status==200){
 				    location.reload();
 				}else{
-				    alert(res.status);
                     $('.modal-body').append("" +
                             "<div class='alert alert-danger alert-dismissible' role='alert'>" +
                             "<button type='button' class='close' data-dismiss='alert' aria-label='Close'>" +
