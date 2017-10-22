@@ -46,7 +46,7 @@
 		<br><br>
 		<br><br>
 		<div>
-			<div style="display: inline-block;float: right;margin: 50px 60px 10px 0;">
+			<div style="display: inline-block;float: right;margin: 20px 60px 10px 0;">
 				<button type="button" class="btn btn-info" id="addBtn">Add</button>
 				<button id="refresh" type="button" class="btn btn-default" style="display: inline-block;"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
 				<div style="line-height: 50px;text-align: center;display: inline-block;"><button type="button" id="logoutBtn" class="btn btn-warning">Logout</button></div>
@@ -169,7 +169,7 @@
             $.post("/loginList", function (res) {
                 $('tbody').html("");
                 $.each(res.data, function (i, person) {
-                    var img = person.avatar == null ? "" : "<img src='" + person.avatar + "' alt='Avatar' class='img-rounded'>";
+                    var img = person.avatar == null||person.avatar=="" ? "" : "<img src='" + person.avatar + "' alt='Avatar' class='img-rounded'>";
                     $('tbody').append("" +
                             "<tr>" +
                             "<td>" + img + "</td>" +

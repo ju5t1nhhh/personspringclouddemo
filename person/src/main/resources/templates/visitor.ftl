@@ -42,7 +42,7 @@
 		<br><br>
 		<br><br>
 		<div>
-			<div style="display: inline-block;float: right;margin: 50px 60px 10px 0;">
+			<div style="display: inline-block;float: right;margin: 20px 60px 10px 0;">
 				<button id="refresh" type="button" class="btn btn-default" style="display: inline-block;"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span></button>
 				<div style="line-height: 50px;text-align: center;display: inline-block;"><button type="button" class="btn btn-info" data-toggle="modal" data-target="#loginModal">Login</button></div>
 			</div>

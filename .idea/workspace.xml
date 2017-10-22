@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="141d26db-a69f-436a-92c0-47962b5b7b51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/person/src/main/java/com/justin/person/util/FileUploadUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/person/src/main/java/com/justin/person/util/ImgCutUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/main/java/com/justin/person/PersonApplication.java" afterPath="$PROJECT_DIR$/person/src/main/java/com/justin/person/PersonApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/main/java/com/justin/person/controller/IndexController.java" afterPath="$PROJECT_DIR$/person/src/main/java/com/justin/person/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/main/java/com/justin/person/controller/PersonController.java" afterPath="$PROJECT_DIR$/person/src/main/java/com/justin/person/controller/PersonController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/main/java/com/justin/person/dao/PersonDao.java" afterPath="$PROJECT_DIR$/person/src/main/java/com/justin/person/dao/PersonDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/main/java/com/justin/person/domain/Person.java" afterPath="$PROJECT_DIR$/person/src/main/java/com/justin/person/domain/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/main/java/com/justin/person/service/PersonService.java" afterPath="$PROJECT_DIR$/person/src/main/java/com/justin/person/service/PersonService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/main/java/com/justin/person/service/impl/PersonServiceImpl.java" afterPath="$PROJECT_DIR$/person/src/main/java/com/justin/person/service/impl/PersonServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/person/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/main/resources/mapper/PersonMapper.xml" afterPath="$PROJECT_DIR$/person/src/main/resources/mapper/PersonMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/test/java/com/justin/person/dao/PersonDaoTest.java" afterPath="$PROJECT_DIR$/person/src/test/java/com/justin/person/dao/PersonDaoTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/person/src/main/resources/templates/index.ftl" afterPath="$PROJECT_DIR$/person/src/main/resources/templates/login.ftl" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/person/src/main/resources/templates/visitor.html" afterPath="$PROJECT_DIR$/person/src/main/resources/templates/visitor.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/main/resources/templates/login.ftl" afterPath="$PROJECT_DIR$/person/src/main/resources/templates/login.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/person/src/main/resources/templates/visitor.ftl" afterPath="$PROJECT_DIR$/person/src/main/resources/templates/visitor.ftl" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PersonServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/person/src/main/java/com/justin/person/service/impl/PersonServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="821">
               <caret line="66" column="55" lean-forward="false" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
               <folding>
                 <element signature="e#3063#3064#0" expanded="true" />
@@ -62,19 +46,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.ftl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.ftl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/person/src/main/resources/templates/login.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-721">
-              <caret line="97" column="119" lean-forward="false" selection-start-line="97" selection-start-column="119" selection-end-line="97" selection-end-column="119" />
+            <state relative-caret-position="229">
+              <caret line="48" column="68" lean-forward="false" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1508658816321" expanded="true" signature="6950:6965" ph="..." />
-                <marker date="1508658816321" expanded="true" signature="7236:7251" ph="..." />
-                <marker date="1508658816321" expanded="true" signature="9759:9766" ph="×" />
-                <marker date="1508658816321" expanded="true" signature="9871:9877" ph="&amp;nbsp;" />
-                <marker date="1508658816321" expanded="true" signature="10329:10336" ph="×" />
-                <marker date="1508658816321" expanded="true" signature="10433:10439" ph="&amp;nbsp;" />
+                <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1508659436374" expanded="true" signature="6969:6984" ph="..." />
+                <marker date="1508659436374" expanded="true" signature="7255:7270" ph="..." />
+                <marker date="1508659436374" expanded="true" signature="9778:9785" ph="×" />
+                <marker date="1508659436374" expanded="true" signature="9890:9896" ph="&amp;nbsp;" />
+                <marker date="1508659436374" expanded="true" signature="10348:10355" ph="×" />
+                <marker date="1508659436374" expanded="true" signature="10452:10458" ph="&amp;nbsp;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visitor.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/person/src/main/resources/templates/visitor.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="44" column="68" lean-forward="false" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
+              <folding>
+                <marker date="1508659436437" expanded="true" signature="4756:4763" ph="×" />
+                <marker date="1508659436437" expanded="true" signature="4824:4830" ph="&amp;nbsp;" />
               </folding>
             </state>
           </provider>
@@ -144,13 +141,13 @@
         <option value="$PROJECT_DIR$/person/src/main/java/com/justin/person/util/FileUploadUtil.java" />
         <option value="$PROJECT_DIR$/person/src/main/java/com/justin/person/dao/PersonDao.java" />
         <option value="$PROJECT_DIR$/person/src/main/java/com/justin/person/service/PersonService.java" />
-        <option value="$PROJECT_DIR$/person/src/main/resources/templates/visitor.ftl" />
         <option value="$PROJECT_DIR$/person/src/test/java/com/justin/person/dao/PersonDaoTest.java" />
         <option value="$PROJECT_DIR$/person/src/main/resources/mapper/PersonMapper.xml" />
         <option value="$PROJECT_DIR$/person/src/main/java/com/justin/person/domain/Person.java" />
-        <option value="$PROJECT_DIR$/person/src/main/resources/templates/login.ftl" />
         <option value="$PROJECT_DIR$/person/src/main/java/com/justin/person/controller/PersonController.java" />
         <option value="$PROJECT_DIR$/person/src/main/java/com/justin/person/service/impl/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/person/src/main/resources/templates/login.ftl" />
+        <option value="$PROJECT_DIR$/person/src/main/resources/templates/visitor.ftl" />
       </list>
     </option>
   </component>
@@ -1180,7 +1177,7 @@
       <workItem from="1508463763513" duration="17167000" />
       <workItem from="1508488301987" duration="6072000" />
       <workItem from="1508552072472" duration="32149000" />
-      <workItem from="1508635876812" duration="21256000" />
+      <workItem from="1508635876812" duration="21813000" />
     </task>
     <servers />
   </component>
@@ -1217,7 +1214,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76644000" />
+    <option name="totallyTimeSpent" value="77201000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1242,7 +1239,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29459903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29459903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -1351,13 +1348,13 @@
         <state relative-caret-position="6000">
           <caret line="240" column="22" lean-forward="true" selection-start-line="240" selection-start-column="22" selection-end-line="240" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1508658816321" expanded="true" signature="6950:6965" ph="..." />
-            <marker date="1508658816321" expanded="true" signature="7236:7251" ph="..." />
-            <marker date="1508658816321" expanded="true" signature="9759:9766" ph="×" />
-            <marker date="1508658816321" expanded="true" signature="9871:9877" ph="&amp;nbsp;" />
-            <marker date="1508658816321" expanded="true" signature="10329:10336" ph="×" />
-            <marker date="1508658816321" expanded="true" signature="10433:10439" ph="&amp;nbsp;" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1508659436374" expanded="true" signature="6969:6984" ph="..." />
+            <marker date="1508659436374" expanded="true" signature="7255:7270" ph="..." />
+            <marker date="1508659436374" expanded="true" signature="9778:9785" ph="×" />
+            <marker date="1508659436374" expanded="true" signature="9890:9896" ph="&amp;nbsp;" />
+            <marker date="1508659436374" expanded="true" signature="10348:10355" ph="×" />
+            <marker date="1508659436374" expanded="true" signature="10452:10458" ph="&amp;nbsp;" />
           </folding>
         </state>
       </provider>
@@ -1496,13 +1493,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/person/src/main/resources/bootstrap.yml" />
-    <entry file="file://$PROJECT_DIR$/person/src/main/java/com/justin/person/filter/AccessFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sql/init.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -1630,17 +1620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/person/src/main/resources/templates/visitor.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2268">
-          <caret line="44" column="68" lean-forward="false" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
-          <folding>
-            <marker date="1508655769020" expanded="true" signature="4756:4763" ph="×" />
-            <marker date="1508655769020" expanded="true" signature="4824:4830" ph="&amp;nbsp;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/person/src/test/java/com/justin/person/PersonApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -1703,22 +1682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/person/src/main/resources/templates/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-721">
-          <caret line="97" column="119" lean-forward="false" selection-start-line="97" selection-start-column="119" selection-end-line="97" selection-end-column="119" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1508658816321" expanded="true" signature="6950:6965" ph="..." />
-            <marker date="1508658816321" expanded="true" signature="7236:7251" ph="..." />
-            <marker date="1508658816321" expanded="true" signature="9759:9766" ph="×" />
-            <marker date="1508658816321" expanded="true" signature="9871:9877" ph="&amp;nbsp;" />
-            <marker date="1508658816321" expanded="true" signature="10329:10336" ph="×" />
-            <marker date="1508658816321" expanded="true" signature="10433:10439" ph="&amp;nbsp;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/person/src/main/java/com/justin/person/controller/PersonController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -1729,13 +1692,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/person/src/main/java/com/justin/person/filter/AccessFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/person/src/main/java/com/justin/person/service/impl/PersonServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="821">
           <caret line="66" column="55" lean-forward="false" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
           <folding>
             <element signature="e#3063#3064#0" expanded="true" />
             <element signature="e#3147#3148#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/src/main/resources/templates/visitor.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="44" column="68" lean-forward="false" selection-start-line="44" selection-start-column="68" selection-end-line="44" selection-end-column="68" />
+          <folding>
+            <marker date="1508659436437" expanded="true" signature="4756:4763" ph="×" />
+            <marker date="1508659436437" expanded="true" signature="4824:4830" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person/src/main/resources/templates/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="48" column="68" lean-forward="false" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1508659436374" expanded="true" signature="6969:6984" ph="..." />
+            <marker date="1508659436374" expanded="true" signature="7255:7270" ph="..." />
+            <marker date="1508659436374" expanded="true" signature="9778:9785" ph="×" />
+            <marker date="1508659436374" expanded="true" signature="9890:9896" ph="&amp;nbsp;" />
+            <marker date="1508659436374" expanded="true" signature="10348:10355" ph="×" />
+            <marker date="1508659436374" expanded="true" signature="10452:10458" ph="&amp;nbsp;" />
           </folding>
         </state>
       </provider>
